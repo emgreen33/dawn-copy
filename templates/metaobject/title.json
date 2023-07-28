@@ -1,1 +1,146 @@
-{"sections":{"ad9c9856-aadb-4b86-8997-03a71a5d2770":{"type":"image-with-text","settings":{"title":"","description":"","height":"small","desktop_image_width":"small","layout":"image_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"","image_behavior":"none","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"3d399fea-a446-467b-b2c7-ac656dafb002":{"type":"multicolumn","blocks":{"template--17319929217046__3d399fea-a446-467b-b2c7-ac656dafb002-16897012776d7c3e81-0":{"type":"column","repeater":"{{ metaobject.books.value }}","settings":{"image":"{{ block.repeater.image.value }}","title":"{{ block.repeater.title.value }}","text":"","link_label":"","link":""}}},"block_order":["template--17319929217046__3d399fea-a446-467b-b2c7-ac656dafb002-16897012776d7c3e81-0"],"settings":{"title":"Best Sellers","heading_size":"h2","image_width":"full","image_ratio":"adapt","columns_desktop":5,"column_alignment":"left","background_style":"primary","button_label":"{{ metaobject.book_attached_to_list_of_authors.value.title.value }}","button_link":"{{ metaobject.book_attached_to_list_of_authors.value.system.url }}","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"82a6f8eb-a9f9-453f-ad09-a8aa78136d55":{"type":"rich-text","blocks":{"template--17319929217046__82a6f8eb-a9f9-453f-ad09-a8aa78136d55-button-1":{"type":"button","repeater":"{{ metaobject.books.value }}","settings":{"button_label":"{{ block.repeater.title.value }}","button_link":"{{ block.repeater.system.url }}","button_style_secondary":false,"button_label_2":"{{ block.repeater.author.value.title.value }}","button_link_2":"{{ block.repeater.author.value.system.url }}","button_style_secondary_2":false}}},"block_order":["template--17319929217046__82a6f8eb-a9f9-453f-ad09-a8aa78136d55-button-1"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":40,"padding_bottom":8}},"20eeec78-e00a-4d22-8028-a9279fd323f1":{"type":"rich-text","blocks":{"template--17319929217046__20eeec78-e00a-4d22-8028-a9279fd323f1-button-1":{"type":"button","repeater":"{{ metaobject.list_of_recipes.value }}","settings":{"button_label":"{{ block.repeater.title.value }}","button_link":"{{ block.repeater.system.url }}","button_style_secondary":false,"button_label_2":"{{ block.repeater.publish_date | metafield_text }}","button_link_2":"{{ block.repeater.metaobject.value.system.url }}","button_style_secondary_2":false}}},"block_order":["template--17319929217046__20eeec78-e00a-4d22-8028-a9279fd323f1-button-1"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":0,"padding_bottom":52}},"30226558-26f4-4d14-b339-fb5a5eccadd0":{"type":"rich-text","blocks":{"template--17319929217046__30226558-26f4-4d14-b339-fb5a5eccadd0-button-1":{"type":"button","source":"{{ metaobject.book_attached_to_list_of_authors.value }}","settings":{"button_label":"{{ metaobject.book_attached_to_list_of_authors.value.title.value }}","button_link":"{{ metaobject.book_attached_to_list_of_authors.value.system.url }}","button_style_secondary":false,"button_label_2":"{{ metaobject.book_attached_to_list_of_authors.value.author.value.title.value }}","button_link_2":"{{ metaobject.book_attached_to_list_of_authors.value.author.value.system.url }}","button_style_secondary_2":true}}},"block_order":["template--17319929217046__30226558-26f4-4d14-b339-fb5a5eccadd0-button-1"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"padding_top":0,"padding_bottom":36}}},"order":["ad9c9856-aadb-4b86-8997-03a71a5d2770","3d399fea-a446-467b-b2c7-ac656dafb002","82a6f8eb-a9f9-453f-ad09-a8aa78136d55","20eeec78-e00a-4d22-8028-a9279fd323f1","30226558-26f4-4d14-b339-fb5a5eccadd0"]}
+{
+  "sections": {
+    "ad9c9856-aadb-4b86-8997-03a71a5d2770": {
+      "type": "image-with-text",
+      "settings": {
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "3d399fea-a446-467b-b2c7-ac656dafb002": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17319929217046__3d399fea-a446-467b-b2c7-ac656dafb002-16897012776d7c3e81-0": {
+          "type": "column",
+          "repeater": "{{ metaobject.books.value }}",
+          "settings": {
+            "image": "{{ block.repeater.image.value }}",
+            "title": "{{ block.repeater.title.value }}",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17319929217046__3d399fea-a446-467b-b2c7-ac656dafb002-16897012776d7c3e81-0"
+      ],
+      "settings": {
+        "title": "Best Sellers",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "{{ metaobject.book_attached_to_list_of_authors.value.title.value }}",
+        "button_link": "{{ metaobject.book_attached_to_list_of_authors.value.system.url }}",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "82a6f8eb-a9f9-453f-ad09-a8aa78136d55": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17319929217046__82a6f8eb-a9f9-453f-ad09-a8aa78136d55-button-1": {
+          "type": "button",
+          "repeater": "{{ metaobject.books.value }}",
+          "settings": {
+            "button_label": "{{ block.repeater.title.value }}",
+            "button_link": "{{ block.repeater.system.url }}",
+            "button_style_secondary": false,
+            "button_label_2": "{{ block.repeater.author.value.title.value }}",
+            "button_link_2": "{{ block.repeater.author.value.system.url }}",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17319929217046__82a6f8eb-a9f9-453f-ad09-a8aa78136d55-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 8
+      }
+    },
+    "20eeec78-e00a-4d22-8028-a9279fd323f1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17319929217046__20eeec78-e00a-4d22-8028-a9279fd323f1-button-1": {
+          "type": "button",
+          "repeater": "{{ metaobject.list_of_recipes.value }}",
+          "settings": {
+            "button_label": "{{ block.repeater.title.value }}",
+            "button_link": "{{ block.repeater.system.url }}",
+            "button_style_secondary": false,
+            "button_label_2": "{{ block.repeater.publish_date | metafield_text }}",
+            "button_link_2": "{{ block.repeater.metaobject.value.system.url }}",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17319929217046__20eeec78-e00a-4d22-8028-a9279fd323f1-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "30226558-26f4-4d14-b339-fb5a5eccadd0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17319929217046__30226558-26f4-4d14-b339-fb5a5eccadd0-button-1": {
+          "type": "button",
+          "source": "{{ metaobject.book_attached_to_list_of_authors.value }}",
+          "settings": {
+            "button_label": "{{ metaobject.book_attached_to_list_of_authors.value.title.value }}",
+            "button_link": "{{ metaobject.book_attached_to_list_of_authors.value.system.url }}",
+            "button_style_secondary": false,
+            "button_label_2": "{{ metaobject.book_attached_to_list_of_authors.value.author.value.title.value }}",
+            "button_link_2": "{{ metaobject.book_attached_to_list_of_authors.value.author.value.system.url }}",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "template--17319929217046__30226558-26f4-4d14-b339-fb5a5eccadd0-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "ad9c9856-aadb-4b86-8997-03a71a5d2770",
+    "3d399fea-a446-467b-b2c7-ac656dafb002",
+    "82a6f8eb-a9f9-453f-ad09-a8aa78136d55",
+    "20eeec78-e00a-4d22-8028-a9279fd323f1",
+    "30226558-26f4-4d14-b339-fb5a5eccadd0"
+  ]
+}
